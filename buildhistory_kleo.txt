@@ -1,0 +1,100 @@
+    1  sudo modprobe -r ideapad_laptop 
+    2  reboot
+    3  sudo nano /etc/modprobe.d/myownblacklist.conf
+    4  sudo modprobe -r ideapad_laptop
+    5  sudo apt install gnupg2
+    6  sudo apt update
+    7  sudo apt upgrade
+    8  sudo apt update
+    9  sudo apt instal gnupg2
+   10  sudo apt install gnupg2
+   11  sudo apt install pinentry-qt
+   12  sudo apt update
+   13  cmake --version
+   14  sudo apt install cmake
+   15  cmake --version 
+   16  sudo apt update
+   17  sudo apt install KF5
+   18  sudo snap install kde-frameworks-5
+   19  sudo apt update
+   20  cd Documents/
+   21  ls
+   22  cd extra-cmake-modules-master/
+   23  mkdir build && cd b
+   24  cd build/
+   25  cmake ..
+   26  make
+   27  make install
+   28  sudo make install
+   29  cd ..
+   30  ls
+   31  cd ..
+   32  ls
+   33  cd libkleo-master/
+   34  cd build/
+   35  cmake ..
+   36  sudo add-apt-repository ppa:beineri/opt-qt-5.11.0-bionic
+   37  sudo apt update
+   38  sudo apt install qt511-meta-full
+   39  cmake ..
+   40  cd ..
+   41  cd Downloads/
+   42  ls
+   43  cd libgpg-error-1.36/
+   44  ls
+   45  install
+   46  ./configure 
+   47  sudo apt update
+   48  ls
+   49  cd ..
+   50  ls
+   51  cd gnupg-2.2.16/
+   52  ls
+   53  ./configure 
+   54  cd ..
+   55  ls
+   56  cd gpgme-1.13.0/
+   57  ls
+   58  ./configure 
+   59  sudo apt update
+   60  ./configure
+   61  cd ..
+   62  cd libassuan-2.5.3/
+   63  ls
+   64  ./configure 
+   65  cd ..
+   66  ls
+   67  cd libgcrypt-1.8.4/
+   68  ls
+   69  ./configure 
+   70  cd ../libgpg-error-1.9
+   71  ls
+   72  ./configure 
+   73  sudo apt update
+   74  cd ..
+   75  ls
+   76  cd libassuan-2.5.3/
+   77  ./configure 
+   78  sudo apt-get install libgpg-error-dev
+   79  sudo apt update
+   80  cd ~/Documents/
+   81  ls
+   82  rm libkleo-master/ -rf
+   83  ls
+   84  cd kleopatra-Applications-17.12/
+   85  cd build/
+   86  cmake ..
+   87  sudo apt-get install libkf5mime-dev libkf5mime-data libkf5mimetreeparser-dev
+   88  sudo apt update
+   89  cmake ..
+   90  sudo apt-get install libkf5notifications-dev libkf5notifications-data libkf5notifications5
+   91  sudo apt update
+   92  cmake ..
+   93  make
+   94  ls
+   95  bin/kleopatra 
+   96  sudo make
+   97  sudo make install
+   98  bin/kleopatra 
+   99  history >> /home/so567279/Documents/buildhistory_kleo.txt
+  100  history >> buildhistory_kleo.txt

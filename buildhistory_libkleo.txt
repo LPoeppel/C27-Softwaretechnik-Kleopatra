@@ -1,0 +1,174 @@
+    1  sudo modprobe -r ideapad_laptop 
+    2  reboot
+    3  sudo nano /etc/modprobe.d/myownblacklist.conf
+    4  sudo modprobe -r ideapad_laptop
+    5  sudo apt install gnupg2
+    6  sudo apt update
+    7  sudo apt upgrade
+    8  cd Documents/
+    9  cd libkleo-master/
+   10  mkdir build && cd build
+   11  cmake ..
+   12  ls
+   13  cmake --version
+   14  sudo apt-get install build-essential
+   15  cmake ..
+   16  sudo apt update
+   17  ls
+   18  cd /opt/
+   19  ls
+   20  la
+   21  sudo apt install qt511-meta-minimal
+   22  sudo apt install qt511-meta-full
+   23  sudo apt install qt511-meta-minimal
+   24  sudo apt update
+   25  ls
+   26  sudo apt install qt511-meta-full
+   27  sudo apt install qt511-meta-dbg-full
+   28  apt get update
+   29  sudo apt-get update
+   30  sudo apt-get update --fix missing
+   31  sudo apt-get update --fix-missing
+   32  sudo apt install qt511-meta-dbg-full
+   33  sudo apt-get install livgl1-mesa-dev
+   34  sudo apt-get install libgl1-mesa-dev
+   35  sudo apt update
+   36  cd ~/Documents/
+   37  ls
+   38  cd ki18n-master/
+   39  mkdir build && cd build
+   40  cmake ..
+   41  sudo apt-get install qtbase5-dev
+   42  cmake ..
+   43  sudo apt-remove qtbase5-dev
+   44  sudo apt-purge qtbase5-dev
+   45  sudo apt-get purge qtbase5-dev
+   46  sudo apt autoremove
+   47  sudo apt clean
+   48  sudo apt-get install qtbase5-dev-tools
+   49  sudo apt-get pruge qtbase5-dev-tools
+   50  sudo apt-get purge qtbase5-dev-tools
+   51  sudo apt-get remove qtbase5-dev-tools
+   52  sudo apt autoremove
+   53  sudo apt clean
+   54  ls
+   55  make
+   56  make install
+   57  sudo apt make install
+   58  sudo make install
+   59  sudo apt-get install libkf5i18n-dev
+   60  cd ..
+   61  ls
+   62  cd libkleo-master/build/
+   63  cmake ..
+   64  cd ../..
+   65  ls
+   66  cd libkleo-Applications-17.12/
+   67  mkdir build && cd build
+   68  ls
+   69  cmake ..
+   70  sudo apt-get install kf5-kdepim-apps-libs-data
+   71  cmake ..
+   72  sudo apt-get install baloo-kf5 baloo-kf5-dev kf5-messagelib-data
+   73  sudo apt update
+   74  cmake ..
+   75  sudo apt-get install libkf5config-bin libkf5config-bin-dev
+   76  sudo apt update
+   77  cmake ..
+   78  sudo apt-get install libkf5config-bin
+   79  LS
+   80  cd ..
+   81  ls
+   82  nano CMakeLists.txt 
+   83  cd build/
+   84  cmake ..
+   85  sudo apt-get install libkf5configgui5 libkf5config-bin libkf5config-bin-dev 
+   86  sudo apt-get install libkf5config-data
+   87  sudo apt-get install libkf5config-dev
+   88  sudo apt update
+   89  sudo apt-get install libkf5configcore5
+   90  sudo apt-get install libkf5configgui5
+   91  sudo apt-get install libkf5configwidgets-data
+   92  sudo apt-get install libkf5configwidgets-dev
+   93  sudo apt-get install libkf5configwidgets5
+   94  cmake ..
+   95  sudo snap install kde-frameworks-5
+   96  snap help refresh
+   97  sudo apt-get install libkf5completion-data libkf5completion-dev libkf5completion5
+   98  sudo apt update
+   99  cmake ..
+  100  sudo apt-get install libkf5windowsystem-data libkf5windowsystem-dev libkf5windowsystem5
+  101  sudo apt update
+  102  cmake ..
+  103  cd ..
+  104  nano CMakeLists.txt 
+  105  cmake ..
+  106  cd build/
+  107  cmake ..
+  108  sudo apt-get install libkf5itemmodels-dev libkf5itemmodels5
+  109  sudo apt update
+  110  cmake ..
+  111  >sudo apt-get install libqgpgme7
+  112  sudo apt-get install libqgpgme7
+  113  sudo apt update
+  114  cmake ..
+  115  sudo apt-get install libqgpgme1
+  116  cmake ..
+  117  sudo apt-get install libqgpgme7
+  118  sudo apt-get install libqgpgme1
+  119  sudo apt-get install libqgpgme7
+  120  sudo apt update
+  121  cmake ..
+  122  sudo apt-get install libqgpgme7
+  123  sudo apt update
+  124  ls
+  125  cd ..
+  126  ls
+  127  cd kleopatra-Applications-17.12/
+  128  cd b
+  129  cd build
+  130  mkdir build && cd build
+  131  cmake ..
+  132  sudo apt-get install libkf5kcmutils5 libkf5kcmutils-dev libkf5kcmutils-data
+  133  sudo apt update
+  134  cmake ..
+  135  sudo apt-get install libgpgmepp-dev libgpgmepp-doc libgpgmepp6
+  136  sudo apt update
+  137  cmake ..
+  138  cd..
+  139  cd ..
+  140  cd libkleo-Applications-17.12/
+  141  ls
+  142  cd build/
+  143  cmake ..
+  144  sudo apt-get install libboost-dev
+  145  sudo apt update
+  146  cmake ..
+  147  sudo make install
+  148  make all
+  149  make
+  150  cmake ..
+  151  make
+  152  sudo apt-get install libgcrypt
+  153  libgcrypt-config --libs --cflags
+  154  sudo apt-get install libgmime-2.6-dev libgmime2.6-cil libglib2.0-dev libgmime1.6-cil-dev
+  155  sudo apt-get install libgmime-2.6-dev libgmime2.6-cil libglib2.0-dev libgmime2.6-cil-dev
+  156  sudo apt update
+  157  cmake ..
+  158  make 
+  159  ls
+  160  cmake ..
+  161  make
+  162  sudo apt install kf5-config
+  163  cmake ..
+  164  make
+  165  cmake ..
+  166  make 
+  167  stat /usr/lib/x86_64-linux-gnu/libgpgme.so
+  168  sudo apt-get install libgpgme-dev
+  169  sudo apt update
+  170  cmake ..
+  171  make 
+  172  make install
+  173  sudo make install
+  174  history >> buildhistory.txt
